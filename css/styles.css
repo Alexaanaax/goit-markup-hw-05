@@ -630,6 +630,9 @@ body {
 .leave-from-field {
     margin-bottom: 8px; 
 }
+.leave-from-comment {
+    margin-bottom: 16px; 
+}
 .leave-contacts-label {
   display: block;
   color: #8e8f99;
