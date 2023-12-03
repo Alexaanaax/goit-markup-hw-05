@@ -505,6 +505,58 @@ body {
 .footer-icon-link:focus {
   background-color: #31d0aa;
 }
+.subscribe-text {
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  
+  .form-container {
+    padding-left: 80px;
+  }
+  
+  .form {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .form-input {
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    padding-left: 16px;
+    color: #ffffff;
+  }
+  
+  .form-button {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .form-icon {
+    margin-left: 16px;
+    fill:#fff;
+  }
 /* Backdrop styles */
 .backdrop {
   position: fixed;
